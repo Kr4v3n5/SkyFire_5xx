@@ -15345,6 +15345,9 @@ uint32 Unit::GetModelForTotem(PlayerTotemType totemType)
             switch (totemType)
             {
                 case SUMMON_TYPE_TOTEM_FIRE:    // fire
+                    if (HasAura(147772))
+                        return 51370;
+                    else
                     return 30758;
                 case SUMMON_TYPE_TOTEM_EARTH:   // earth
                     return 30757;
@@ -15360,6 +15363,9 @@ uint32 Unit::GetModelForTotem(PlayerTotemType totemType)
             switch (totemType)
             {
                 case SUMMON_TYPE_TOTEM_FIRE:    // fire
+                    if (HasAura(147772))
+                        return 51370;
+                    else
                     return 30754;
                 case SUMMON_TYPE_TOTEM_EARTH:   // earth
                     return 30753;
@@ -15375,6 +15381,9 @@ uint32 Unit::GetModelForTotem(PlayerTotemType totemType)
             switch (totemType)
             {
                 case SUMMON_TYPE_TOTEM_FIRE:    // fire
+                    if (HasAura(147772))
+                        return 51370;
+                    else
                     return 30762;
                 case SUMMON_TYPE_TOTEM_EARTH:   // earth
                     return 30761;
@@ -15390,6 +15399,9 @@ uint32 Unit::GetModelForTotem(PlayerTotemType totemType)
             switch (totemType)
             {
                 case SUMMON_TYPE_TOTEM_FIRE:    // fire
+                    if (HasAura(147772))
+                        return 51370;
+                    else
                     return 4589;
                 case SUMMON_TYPE_TOTEM_EARTH:   // earth
                     return 4588;
@@ -15405,6 +15417,9 @@ uint32 Unit::GetModelForTotem(PlayerTotemType totemType)
             switch (totemType)
             {
                 case SUMMON_TYPE_TOTEM_FIRE:    // fire
+                    if (HasAura(147772))
+                        return 51370;
+                    else
                     return 19074;
                 case SUMMON_TYPE_TOTEM_EARTH:   // earth
                     return 19073;
@@ -15420,6 +15435,9 @@ uint32 Unit::GetModelForTotem(PlayerTotemType totemType)
             switch (totemType)
             {
                 case SUMMON_TYPE_TOTEM_FIRE:    // fire
+                    if (HasAura(147772))
+                        return 51370;
+                    else
                     return 30783;
                 case SUMMON_TYPE_TOTEM_EARTH:   // earth
                     return 30782;
@@ -15437,6 +15455,9 @@ uint32 Unit::GetModelForTotem(PlayerTotemType totemType)
             switch (totemType)
             {
                 case SUMMON_TYPE_TOTEM_FIRE:    // fire
+                    if (HasAura(147772))
+                        return 51370;
+                    else
                     return 41670;
                 case SUMMON_TYPE_TOTEM_EARTH:   // earth
                     return 41669;
