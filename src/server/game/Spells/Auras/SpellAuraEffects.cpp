@@ -2125,6 +2125,11 @@ void AuraEffect::HandleAuraTransform(AuraApplication const* aurApp, uint8 mode, 
                             if (caster->HasAura(52648))         // Glyph of the Penguin
                                 model_id = 26452;
 
+                    if (GetSpellInfo()->SpellFamilyName == SPELLFAMILY_SHAMAN && GetSpellInfo()->SpellIconID == 3058 && GetSpellInfo()->SpellVisual[0] == 12780)
+                        if (Unit* caster = GetCaster())
+                            if (caster->HasAura(147785)) // Glifo de Minirraptor
+                                model_id = 47258;
+
                     target->SetDisplayId(model_id);
 
                     // Dragonmaw Illusion (set mount model also)
